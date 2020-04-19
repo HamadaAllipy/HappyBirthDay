@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/yasmin"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday, Yasmin !"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="left"
+        android:padding="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="#701052D6"
+        android:fontFamily="sans-serif-light"
+        android:padding="16dp"
+        android:text="I Love You ,From Hamada"
+        android:textColor="@android:color/white"
+        android:textSize="36sp" />
+
+</RelativeLayout>
